@@ -1,0 +1,27 @@
+.NavBar-Main-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  color: black;
+  gap: 2rem;
+  top: 0;
+  width: 98%;
+  background-color: rgb(245, 245, 245);
+  height: 10vh;
+  font-size: 22px;
+}
+
+/* .Navbar-Logo {
+} */
+
+.Navbar-Items {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.Navbar-icon {
+  padding-right: 2rem;
+}
