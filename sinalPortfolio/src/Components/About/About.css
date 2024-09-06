@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Swis721 BlkOul Bt";
+  src: url("/fonts/Swis721BlkOulBt.woff2") format("woff2"),
+    url("/fonts/Swis721BlkOulBt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.About-Main-Container {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background-color: #3f51b5;
+  color: black;
+  gap: 1rem;
+  font-family: "Swis721 BlkOul Bt", sans-serif;
+}
+
+.About-hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 1rem;
+  width: 100%;
+  color: black;
+}
+
+.About-Description {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+  gap: 2rem;
+}
