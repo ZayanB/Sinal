@@ -3,18 +3,21 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 2rem;
   color: black;
   gap: 2rem;
   top: 0;
-  width: 98%;
+  width: 100%;
   background-color: rgb(245, 245, 245);
+  /* background-color: white; */
   height: 10vh;
   font-size: 22px;
+  position: sticky;
+  z-index: 1000;
 }
 
-/* .Navbar-Logo {
-} */
+.Navbar-Logo {
+  width: 5%;
+}
 
 .Navbar-Items {
   display: flex;
