@@ -18,8 +18,11 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 2rem;
   padding-right: 2rem;
-  gap: 2rem;
+  gap: 4rem;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .My-Skills {
