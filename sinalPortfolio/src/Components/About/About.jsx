@@ -7,24 +7,26 @@ const About = () => {
       <div className="About-Main-Container">
         <div className="About-hello">
           <div style={{ fontSize: "20px" }}>Hello! I'm</div>
-          <div style={{ fontSize: "33px", fontWeight: "bold" }}>
+          <div
+            style={{ fontSize: "40px", fontWeight: "bold", color: "#6d7d8d" }}
+          >
             SINAL BREICHE
           </div>
         </div>
         <div className="About-Description">
           <div
             className="About-Me"
-            style={{ fontSize: "145px", textAlign: "right" }}
+            style={{ fontSize: "145px", textAlign: "right", color: "black" }}
           >
             ABOUT
-            <div style={{ margin: "-75px 0 0 0" }}> ME </div>
+            <div style={{ margin: "-80px 0 0 0" }}> ME </div>
           </div>
           <div
             style={{
               width: "66.667%",
               fontSize: "20px",
               paddingTop: "6rem",
-              color: "white",
+              color: "black",
             }}
           >
             I'm a computer graphics and animation professional with a strong

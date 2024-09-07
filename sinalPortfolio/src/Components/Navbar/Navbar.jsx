@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { PiMoon } from "react-icons/pi";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/media/logo/sbLogoBlack.png";
+import logo from "../../assets/media/logo/sbLogo.png";
 
 const Navbar = () => {
   return (
@@ -22,20 +22,20 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className="Navbar-Items">
-        <NavLink to={"/#about-me"} style={{ color: "black" }}>
+        <NavLink to={"/#about-me"} style={{ color: "white" }}>
           About
         </NavLink>
 
-        <NavLink to={"/projects"} style={{ color: "black" }}>
+        <NavLink to={"/projects"} style={{ color: "white" }}>
           Projects
         </NavLink>
-        <NavLink to={"/#skills"} style={{ color: "black" }}>
+        <NavLink to={"/#skills"} style={{ color: "white" }}>
           Skills
         </NavLink>
-        <div>Contact</div>
+        <div style={{ color: "white" }}>Contact</div>
       </div>
       <div className="Navbar-icon">
-        <PiMoon size={22} />
+        <PiMoon size={22} color="white" />
       </div>
     </div>
   );
