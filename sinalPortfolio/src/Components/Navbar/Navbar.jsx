@@ -29,7 +29,9 @@ const Navbar = () => {
         <NavLink to={"/projects"} style={{ color: "black" }}>
           Projects
         </NavLink>
-        <div>Skills</div>
+        <NavLink to={"/#skills"} style={{ color: "black" }}>
+          Skills
+        </NavLink>
         <div>Contact</div>
       </div>
       <div className="Navbar-icon">
