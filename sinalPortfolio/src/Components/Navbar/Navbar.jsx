@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import "./Navbar.css";
 import { PiMoon } from "react-icons/pi";
-Skills
-import { NavLink } from "react-router-dom";
+import { NavLink,useLocation } from "react-router-dom";
 import logo from "../../assets/media/logo/sbLogo.png";
-main
 
 const Navbar = () => {
   const location = useLocation();
@@ -38,19 +36,15 @@ const Navbar = () => {
         <NavLink to={"/#about-me"} style={{ color: "white" }}>
           About
         </NavLink>
-
         <NavLink to={"/projects"} style={{ color: "white" }}>
           Projects
         </NavLink>
         <NavLink to={"/#skills"} style={{ color: "white" }}>
           Skills
         </NavLink>
- Skills
-   
         <NavLink to={"/#contact-me"} style={{ color: "white" }}>
           Contact
         </NavLink>
- main
       </div>
       <div className="Navbar-icon">
         <PiMoon size={22} color="white" />
