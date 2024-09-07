@@ -1,9 +1,17 @@
+.Skills-Center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 50%; */
+}
+
 .Skills-Parent {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   /* background-color: #3f51b5; */
 }
+
 .Skills-Main {
   display: flex;
   flex-direction: row;
@@ -11,6 +19,10 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-right: 2rem;
+  padding-top: 2rem;
+  gap: 4rem;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .My-Skills {
@@ -19,10 +31,4 @@
   font-size: 50px;
   color: black;
   font-weight: bold;
-}
-
-.Skill-logo {
-  width: 15vw;
-  height: 22vh;
-  /* border-radius: 50%; */
 }

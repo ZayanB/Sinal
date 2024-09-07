@@ -13,7 +13,7 @@
   background-color: #3f51b5;
   color: black;
   gap: 1rem;
-  font-family: "Swis721 BlkOul Bt", sans-serif;
+  
   padding-top: 9vh;
 }
 
@@ -33,4 +33,7 @@
   flex-direction: row;
   padding-right: 2rem;
   gap: 2rem;
+}
+.About-Me{
+  font-family: "Swis721 BlkOul Bt", sans-serif;
 }
