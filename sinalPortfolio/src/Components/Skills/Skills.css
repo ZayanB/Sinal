@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
   /* max-width: 50%; */
+  background-color: #e3ecf1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .Skills-Parent {
@@ -31,4 +34,5 @@
   font-size: 50px;
   color: black;
   font-weight: bold;
+  
 }

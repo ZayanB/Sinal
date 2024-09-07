@@ -6,9 +6,9 @@ const About = () => {
     <section id="about-me">
       <div className="About-Main-Container">
         <div className="About-hello">
-          <div style={{ fontSize: "20px" }}>Hello! I'm</div>
+          <div style={{ fontSize: "30px" }}>Hello! I'm</div>
           <div
-            style={{ fontSize: "40px", fontWeight: "bold", color: "#6d7d8d" }}
+            style={{ fontSize: "55px", fontWeight: "bold", color: "#6d7d8d" }}
           >
             SINAL BREICHE
           </div>
@@ -16,7 +16,12 @@ const About = () => {
         <div className="About-Description">
           <div
             className="About-Me"
-            style={{ fontSize: "145px", textAlign: "right", color: "black" }}
+            style={{
+              margin: "-20px 0 0 0",
+              fontSize: "145px",
+              textAlign: "right",
+              color: "black",
+            }}
           >
             ABOUT
             <div style={{ margin: "-80px 0 0 0" }}> ME </div>
@@ -25,7 +30,7 @@ const About = () => {
             style={{
               width: "66.667%",
               fontSize: "20px",
-              paddingTop: "6rem",
+              paddingTop: "4rem",
               color: "black",
             }}
             main

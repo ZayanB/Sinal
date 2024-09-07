@@ -20,7 +20,7 @@ const Skills = () => {
     <section id="skills">
       <div className="Skills-Center">
         <div className="Skills-Parent">
-          <div className="My-Skills">My Skills</div>
+          <div className="My-Skills">MY SKILLS</div>
           <div className="Skills-Main">
             <div className="x">
               <SiAdobeaftereffects
