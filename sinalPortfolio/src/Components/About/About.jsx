@@ -12,13 +12,13 @@ const About = () => {
           </div>
         </div>
         <div className="About-Description">
-          <div
+          <div className="About-Me"
             style={{ width: "33.33%", fontSize: "120px", textAlign: "right" }}
           >
             ABOUT <br /> ME
           </div>
           <div
-            style={{ width: "66.667%", fontSize: "20px", paddingTop: "6rem" }}
+            style={{ width: "66.667%", fontSize: "20px", paddingTop: "6rem" ,color:"white"}}
           >
             I'm a computer graphics and animation professional with a passion
             for bringing ideas to life. With a string background in 3D modeling,
