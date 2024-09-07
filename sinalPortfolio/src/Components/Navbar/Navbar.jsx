@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navbar.css";
 import { PiMoon } from "react-icons/pi";
+Skills
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/media/logo/sbLogo.png";
+main
 
 const Navbar = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="NavBar-Main-Container">
       <div className="Navbar-Logo">
@@ -32,7 +45,12 @@ const Navbar = () => {
         <NavLink to={"/#skills"} style={{ color: "white" }}>
           Skills
         </NavLink>
-        <div style={{ color: "white" }}>Contact</div>
+ Skills
+   
+        <NavLink to={"/#contact-me"} style={{ color: "white" }}>
+          Contact
+        </NavLink>
+ main
       </div>
       <div className="Navbar-icon">
         <PiMoon size={22} color="white" />

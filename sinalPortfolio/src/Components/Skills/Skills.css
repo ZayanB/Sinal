@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  /* max-width: 50%; */
 }
 
 .Skills-Parent {
@@ -18,8 +18,8 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 2rem;
   padding-right: 2rem;
+  padding-top: 2rem;
   gap: 4rem;
   max-width: 70%;
   margin: 0 auto;
