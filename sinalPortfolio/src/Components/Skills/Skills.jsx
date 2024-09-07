@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import afterEffects from "../../assets/media/skills/afterEffectsLogo.png";
 import dsmax from "../../assets/media/skills/01.png";
 import {
   SiAdobeaftereffects,
