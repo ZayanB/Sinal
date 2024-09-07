@@ -11,7 +11,7 @@
   /* background-color: white; */
   height: 10vh;
   font-size: 22px;
-  position: sticky;
+  position: fixed;
   z-index: 1000;
 }
 
