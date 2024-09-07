@@ -1,0 +1,5 @@
+.Projects-Home-Main {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 10vh; */
+}
