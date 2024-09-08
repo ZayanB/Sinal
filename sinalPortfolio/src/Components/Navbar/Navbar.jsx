@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { PiMoon } from "react-icons/pi";
-import { NavLink,useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/media/logo/sbLogo.png";
 
 const Navbar = () => {
   const location = useLocation();
+  // const [nav, setNav] = useState("/");
 
   useEffect(() => {
     if (location.hash) {
@@ -33,21 +34,21 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className="Navbar-Items">
-        <NavLink to={"/#about-me"} style={{ color: "white" }}>
-          About
+        <NavLink to={"/#about-me"} className="Navbar-Items-Color">
+          ABOUT
         </NavLink>
-        <NavLink to={"/projects"} style={{ color: "white" }}>
-          Projects
+        <NavLink to={"/projects"} className="Navbar-Items-Color">
+          PROJECTS
         </NavLink>
-        <NavLink to={"/#skills"} style={{ color: "white" }}>
-          Skills
+        <NavLink to={"/#skills"} className="Navbar-Items-Color">
+          SKILLS
         </NavLink>
-        <NavLink to={"/#contact-me"} style={{ color: "white" }}>
-          Contact
+        <NavLink to={"/#contact-me"} className="Navbar-Items-Color">
+          CONTACT
         </NavLink>
       </div>
       <div className="Navbar-icon">
-        <PiMoon size={22} color="white" />
+        <PiMoon size={30} color="white" />
       </div>
     </div>
   );

@@ -14,7 +14,11 @@ const Projects = () => {
               <img
                 src={project.URL}
                 alt={project.alt}
-                style={{ width: "100%", height: "100%", transform: "scale(1)" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  transform: "scale(1)",
+                }}
               />
             </div>
             <div className="project-name">{project.projectName}</div>

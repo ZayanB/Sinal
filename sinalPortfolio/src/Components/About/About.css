@@ -26,6 +26,14 @@
   padding-top: 2rem;
   width: 100%;
   color: rgb(0, 0, 0);
+  font-family: "Swis721 BlkOul Bt", "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.About-Name {
+  font-size: 55px;
+  font-weight: bold;
+  color: #6d7d8d;
 }
 
 .About-Description {
@@ -37,6 +45,16 @@
 }
 
 .About-Me {
-  font-family: "Swis721 BlkOul Bt", sans-serif;
-  
+  font-family: "Swis721 BlkOul Bt", "Times New Roman", Times, serif;
+  font-size: 145px;
+  color: black;
+  text-align: right;
+  margin: -20px 0 0 0;
+}
+
+.About-Paragraph {
+  width: 66.667%;
+  font-size: 22px;
+  padding-top: 4.5rem;
+  color: black;
 }

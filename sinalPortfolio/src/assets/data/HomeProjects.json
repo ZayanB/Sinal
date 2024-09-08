@@ -6,15 +6,15 @@
     "software": "3DS MAX"
   },
   {
+    "URL": "/media/HomeProjects/tapeIt.png",
+    "alt": "TapeIt",
+    "projectName": "TAPE IT",
+    "software": "Motion Graphics | After Effects"
+  },
+  {
     "URL": "/media/HomeProjects/3dRobot.jpg",
     "alt": "ps",
     "projectName": " 3D MODELED ROBOT",
     "software": "3DS MAX | Adobe Photoshop"
-  },
-  {
-    "URL": "/media/HomeProjects/tapeIt.png",
-    "alt": "TapeIt",
-    "projectName": "TAPE IT",
-    "software": "Adobe AfterEffects"
   }
 ]

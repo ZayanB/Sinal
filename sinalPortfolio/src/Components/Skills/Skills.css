@@ -31,8 +31,8 @@
 .My-Skills {
   display: flex;
   justify-content: center;
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
-  color: black;
   font-weight: bold;
-  
+  color: black;
 }
