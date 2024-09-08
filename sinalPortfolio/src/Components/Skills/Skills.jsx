@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import dsmax from "../../assets/media/skills/01.png";
+import dsmax from "../../assets/media/skills/3dsMax.png";
 import zbrush from "../../assets/media/skills/zBrush.png";
 import {
   SiAdobeaftereffects,
@@ -47,6 +47,9 @@ const Skills = () => {
               />
             </div>
             <div>
+              <img src={zbrush} alt="zBrush" />
+            </div>
+            <div>
               <SiUnity size={100} color="black" alt="Unity" />
             </div>
             <div>
@@ -69,9 +72,6 @@ const Skills = () => {
             </div>
             <div>
               <AiOutlineDotNet color="black" size={100} />
-            </div>
-            <div>
-              <img src={zbrush} alt="zBrush" />
             </div>
           </div>
         </div>

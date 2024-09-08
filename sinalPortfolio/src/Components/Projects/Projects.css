@@ -18,13 +18,14 @@
 }
 .my-projects {
   align-self: center;
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   font-weight: bold;
 }
 
 .home-project-image {
-  width: 30vw;
-  height: 40vh;
+  width: 29vw;
+  height: 29vh;
 }
 
 .project {
@@ -35,7 +36,9 @@
 }
 
 .project-name {
+  font-size: 22px;
   font-weight: bold;
+  color: #6d7d8d;
 }
 
 .view-projects-btn {
