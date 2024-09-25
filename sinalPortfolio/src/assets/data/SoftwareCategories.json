@@ -1,7 +1,44 @@
 [
   {
-    "URL": "",
-    "alt": "",
-    "software": ""
+    "name": "Adobe Aftereffects",
+    "icon": "SiAdobeaftereffects",
+    "color": "#00005b",
+    "count": "2",
+    "id": "1"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "icon": "SiAdobephotoshop",
+    "color": "#001e36",
+    "count": "3",
+    "id": "2"
+  },
+  {
+    "name": "Autodesk Maya",
+    "icon": "SiAutodeskmaya",
+    "color": "#52a5c7",
+    "count": "1",
+    "id": "3"
+  },
+  {
+    "name": "Unity",
+    "icon": "SiUnity",
+    "color": "black",
+    "count": "1",
+    "id": "4"
+  },
+  {
+    "name": "WPF",
+    "icon": "DiDotnet",
+    "color": "#007ec1",
+    "count": "1",
+    "id": "5"
+  },
+  {
+    "name": ".NET Framework",
+    "icon": "AiOutlineDotNet",
+    "color": "black",
+    "count": "1",
+    "id": "6"
   }
 ]
