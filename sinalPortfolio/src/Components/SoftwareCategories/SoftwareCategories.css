@@ -1,0 +1,29 @@
+.soft-cat-main {
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  background-color: white;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.single-software {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  cursor: pointer;
+}
+
+.soft-cat-name {
+  transition: ease 500ms;
+}
+
+.soft-cat-name:hover {
+  color: rgb(255, 107, 107);
+  transition: ease 500ms;
+}
